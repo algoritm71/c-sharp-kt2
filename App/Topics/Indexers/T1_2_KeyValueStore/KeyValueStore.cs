@@ -10,7 +10,7 @@ public class KeyValueStore
 
     // Индексатор по int id
     public string this[int id]
-    {
+    { 
         get
         {
             if (!_byId.TryGetValue(id, out string value))
